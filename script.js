@@ -22,7 +22,7 @@ const advanceBlue = (e) => {
   checkWinner(blue_position, "Blue")
 };
 const advancePink = (e) => {
-  pink_position += 2
+  pink_position += 1
   changePosition(pinkHorse, pink_position)
     checkWinner(pink_position, "Pink")
 };
@@ -43,7 +43,7 @@ const checkWinner = (position, color) => {
   }
 };
 
-
+//IMAGES NOT ADDED.
 
 // Event Listeners Here
 blueButton.addEventListener("click", advanceBlue);
